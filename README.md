@@ -74,8 +74,8 @@ for i in range(n):
 ```
 ## Output:
 
-![Ex6CR](https://user-images.githubusercontent.com/113497491/191967705-77c777e1-a922-4ce5-966a-d1e4966568a4.png)
 
+![image](https://user-images.githubusercontent.com/113497491/191967847-9c445426-0109-4bc5-9848-7ef695c0a045.png)
 
 
 
