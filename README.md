@@ -24,13 +24,12 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 7.Print the program.
 
 ## Program:
-```
+```pythone
 /*
 Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: 
-RegisterNumber: 
-*/
-```
+Developed by:  dharshan v
+RegisterNumber: 22003103
+
 import numpy as np
 import sys 
 
@@ -74,7 +73,8 @@ for i in range(n):
 ```
 ## Output:
 
-![Ex6CR](https://user-images.githubusercontent.com/113497491/191968188-9aabd2b1-9885-43ed-91b6-a871b5f5c133.png)
+![Ex6CR](https://user-images.githubusercontent.com/113497491/192081943-6a060955-7725-4207-998f-87b6fca67000.png)
+
 
 
 
