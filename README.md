@@ -25,14 +25,12 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Program:
 ```pythone
-/*
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by:  dharshan v
 RegisterNumber: 22003103
 
 import numpy as np
 import sys 
-
 n=int(input()) #input
 a=np.zeros((n,n+1))
 #print(a)
@@ -42,34 +40,24 @@ for i in range(n):
     for j in range(n+1):
         a[i][j]=float(input())
     #print(a)
-         
 #apply gaussian elimination
 for i in range(n):
     if a[i][j]==0.0:
-        sys.exit('Divide by zero found')
-        
+        sys.exit('Divide by zero found')    
     for j in range(i+1,n):
         ratio=a[j][i]/a[i][i]
-        
         for k in range(n+1):
             a[j][k]=a[j][k]-ratio*a[i][k]
-        
 #back substitution
 x[n-1]=a[n-1][n]/a[n-1][n-1] 
-
 for i in range(n-2,-1,-1):
     x[i]=a[i][n]
-
     for j in range(i+1,n):
         x[i]=x[i]-a[i][j]*x[j]
-        
     x[i]=x[i]/a[i][i]
-    
 #display soln
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
-
-
 ```
 ## Output:
 
